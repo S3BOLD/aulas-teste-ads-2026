@@ -1,0 +1,16 @@
+{
+  "name": "base-aulas-testes",
+  "version": "1.0.0",
+  "description": "Código para ser utilizado em sala",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renan Ponick",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
