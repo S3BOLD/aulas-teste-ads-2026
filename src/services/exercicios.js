@@ -1,5 +1,8 @@
 class Service {
     Somar(num1, num2) {
+        if(isNaN(num1)){
+            throw new Error("Informar somente números")
+        }
         return num1 + num2;
     }
 
